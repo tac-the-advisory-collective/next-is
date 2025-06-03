@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+### Roadmap
+- Creating components such as views (list, kanban, form, matrix, dashboard)
+- Creating multi-languages 
+- Creating multi-timezones 
+- Creating multi-currencies 
+- Creating multi-companies
+- Creating all the authentification system
+- Creating all the first use process (create DB, choose (super)admin email and password, etc.)
+- Creating CRM app
+- Creating Accounting app
+- Creating Manufacturing and Warehouse apps
+- Creating HR app
