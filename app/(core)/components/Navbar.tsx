@@ -39,6 +39,7 @@ export default function NavBar() {
 
   const navigation = [
     { icon: HomeIcon, name: "Home", href: "/", current: true, pathname: "home", secret: false },
+    { icon: UsersIcon, name: "Company", href: "/company", current: true, pathname: "company", secret: true },
     { icon: UsersIcon, name: "CRM", href: "/crm", current: true, pathname: "crm", secret: true },
     // { icon: UsersIcon, name: "Users", href: "/users", current: false },
   ];
@@ -87,8 +88,7 @@ export default function NavBar() {
                 if (item.secret == true 
                     && 
                     (
-                      user?.user?.email == "dd@l.com" 
-                      || user?.user?.email == "david.drapeau@gmail.com"
+                      user?.user?.email == "test@localhost.com" 
                     )
                 ) {
                   // if(user?.user?.email == "david.drapeau@gmail.com") {
