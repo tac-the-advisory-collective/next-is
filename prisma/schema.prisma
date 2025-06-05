@@ -19,3 +19,23 @@ model user_user {
   email    String  @unique
   password String
 }
+
+// prisma/schema.prisma
+
+model pipeline_stage {
+  id        Int  @id @default(autoincrement())
+  name      String
+  position  Int
+  deals     deal[]
+}
+
+model deal {
+  id             Int  @id @default(autoincrement())
+  title          String
+  value          Float
+  customer       String?
+  stage_id       Int
+  stage          pipeline_stage @relation(fields: [stage_id], references: [id])
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt @default(now())
+}
