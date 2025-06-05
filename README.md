@@ -1,8 +1,12 @@
 # version alpha-0.0.x
 
 ### Work In Progress
+- Company:
+  - Create: 80%
+  - List: 0%
+  - Update: 0%
 - Kanban view for CRM: 2%
-- Navigation bar: 80%
+- Navigation bar: 60%
 - User session: 25%
 
 ### Roadmap
